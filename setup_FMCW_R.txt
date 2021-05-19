@@ -1,0 +1,26 @@
+#
+[MODULATION]
+FMCW_R                          #
+
+[COMMON_PARAM]
+RX_GAIN                    50   #
+CENTRAL_FREQ            60500   #
+XTAL_FREQ                  40   #
+FRAME_RATE                 60   #
+CHIRP_RATE_CONSTANT        16   #
+INIT_CAL_MODE         DISABLE   #
+BIT_WIDTH               16BIT   #
+HEADER_MODE            ENABLE   #
+STATUS_MODE           DISABLE   #
+
+[FMCW_R_PARAM]
+CHIRP_R_NUM                16   #
+RXCH                       04   #
+TXCH                       01   #
+IQ_MODE                    IQ   #
+CHIRP_MODE                 UP   #
+CHIRP_BAND_WIDTH         6800   #
+SWEEP_TIME                 55   #
+CHIRP_POINT               128   #
+LPF_FC                    500   #
+HPF_FC                    100   #
